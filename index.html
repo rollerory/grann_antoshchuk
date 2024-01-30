@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grann</title>
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body id="body">
+
+    <div class="wrapper">
+
+        <header id="header-index">
+            <div class="header-top">
+                <div class="container">
+                    <nav class="menu">
+                        <button class="menu__btn">
+                            <svg width="30" height="30">
+                                <use href="images/sprite.svg#menu-btn"></use>
+                            </svg>
+                        </button>
+                        <ul class="menu__list">
+                            <li class="menu__hug">
+                                <a class="menu__link text" href="#categories">Десерти</a>
+                                <a class="menu__link text" href="#advantages">Чому ми?</a>
+                            </li>
+                            <li class="menu__hug">
+                                <a class="menu__link text" href="#delivery">Доставка</a>
+                                <a class="menu__link text" href="#contacts">Контакти</a>
+                            </li>
+                        </ul>
+                        <button class="cart">
+                            <svg width="30" height="30">
+                                <use href="images/sprite.svg#cart"></use>
+                            </svg>
+                        </button>
+                        <a class="logo" href="#body">
+                            <img src="images/logo.png" alt="logo">
+                        </a>
+                    </nav>
+                    <nav class="mobile-menu">
+                        <button class="mobile-menu__btn">
+                            <svg width="30" height="30">
+                                <use href="images/sprite.svg#menu-btn-close"></use>
+                            </svg>
+                        </button>
+                        <ul class="mobile-menu__list">
+                            <li class="mobile-menu__item">
+                                <a href="#bestsellers" class="mobile-menu__item-link">Бестселлери</a>
+                            </li>
+                            <li class="mobile-menu__item">
+                                <a href="#delivery" class="mobile-menu__item-link">Доставка</a>
+                            </li>
+                            <li class="mobile-menu__item">
+                                <a href="#about" class="mobile-menu__item-link">Про мене</a>
+                            </li>
+                            <li class="mobile-menu__item">
+                                <a href="#contacts" class="mobile-menu__item-link">Контакти</a>
+                            </li>
+                        </ul>
+                        <div class="mobile-menu__decor">
+                            <img class="mobile-menu__img" src="images/header/mobile-menu.png" alt="cake img">
+                        </div>
+                    </nav>
+                </div>
+            </div>
+            <div class="header-wrapper">
+                <div class="container">
+                    <div class="header">
+                        <div class="header__content">
+                            <h2 class="header__mobile-title">GRANN</h2>
+                            <h1 class="header__title title">Авторські десерти</h1>
+                            <img class="header__img" src="images/header/header.png" alt="header img">
+                            <div class="header__cake">
+                                <span class="header__cake-text">мусові торти</span>
+                                <img class="header__cake-img" src="images/header/cake.png" alt="shu image">
+                            </div>
+                            <div class="header__shu">
+                                <span class="header__shu-text">заварні шу</span>
+                                <img class="header__shu-img" src="images/header/shu.png" alt="shu image">
+                            </div>
+                            <div class="header__tart">
+                                <span class="header__tart-text">апетитні тарти</span>
+                                <img class="header__tart-img" src="images/header/tart.png" alt="shu image">
+                            </div>
+                            <blockquote class="header__blockquote">Виготовляємо десерти під замовлення з любов’ю та користю.
+                            </blockquote>
+                            <div class="header__mobile-decor">
+                            </div>
+                            <button class="header__mobile-btn btn">
+                                До каталогу
+                            </button>
+                            <div class="header__social">
+                                <a href="#" class="header__social-link">
+                                    <svg width="24" height="24">
+                                        <use xlink:href="images/sprite.svg#telegram"></use>
+                                    </svg>
+                                    <svg width="44" height="38">
+                                        <use xlink:href="images/sprite.svg#stroke-line"></use>
+                                    </svg>
+                                </a>
+                                <a href="#" class="header__social-link">
+                                    <svg width="24" height="24">
+                                        <use xlink:href="images/sprite.svg#facebook"></use>
+                                    </svg>
+                                    <svg width="44" height="38">
+                                        <use xlink:href="images/sprite.svg#stroke-line"></use>
+                                    </svg>
+                                </a>
+                                <a href="#" class="header__social-link">
+                                    <svg width="24" height="24">
+                                        <use xlink:href="images/sprite.svg#instagram"></use>
+                                    </svg>
+                                    <svg width="44" height="38">
+                                        <use xlink:href="images/sprite.svg#stroke-line"></use>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <main class="main">
+            <div class="categories" id="categories">
+                <div class="container">
+                    <div class="category__list">
+                        <div class="category__list-item wow animate__fadeIn">
+                            <a class="category__list-btn btn">Торти</a>
+                            <img src="images/categories/categories-cake.png" alt="cake" class="category__list-img">
+                        </div>
+                        <div class="category__list-item wow animate__fadeIn">
+                            <a class="category__list-btn btn">Шу</a>
+                            <img src="images/categories/categories-shu.png" alt="shu" class="category__list-img">
+                        </div>
+                        <div class="category__list-item wow animate__fadeIn">
+                            <a class="category__list-btn btn">Тістечка</a>
+                            <img src="images/categories/categories-patisserie.png" alt="patiserrie" class="category__list-img">
+                        </div>
+                        <div class="category__list-item wow animate__fadeIn">
+                            <a class="category__list-btn btn">Піца</a>
+                            <img src="images/categories/categories-pizza.png" alt="pizza" class="category__list-img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <section class="bestsellers" id="bestsellers">
+                <div class="container">
+                    <h2 class="bestsellers__title title">Бестселлери</h2>
+                    <div class="splide" aria-label="Splide Basic HTML Example">
+                        
+                        <div class="splide__track">
+                            <ul class="splide__list">
+            
+                                <li class="splide__slide">
+                                    <div class="splide__slide-item" href="#">
+                                        <div class="splide__item-img">
+                                            <img src="images/slider/1.jpg" alt="slider image">
+                                            <a class="btn splide__slide-link">Детальніше</a>
+                                        </div>
+                                        <div class="splide__slide-info">
+                                            <a href="#">
+                                                <h4 class="splide__item-title">Мусовий торт “Манго-маракуйя”</h4>
+                                            </a>
+                                            <span class="splide__item-price">1200 грн/ 3 кг</span>
+                                            <button class="splide__item-cart" type="button">
+                                                <svg width="30" height="30">
+                                                    <use href="images/sprite.svg#cart"></use>
+                                                </svg>
+                                            </button>
+                                        </div>
+                                    </a>
+                                </li>
+            
+                                <li class="splide__slide">
+                                    <div class="splide__slide-item" href="#">
+                                        <div class="splide__item-img">
+                                            <img src="images/slider/2.jpg" alt="slider image">
+                                            <a class="btn splide__slide-link">Детальніше</a>
+                                        </div>
+                                        <div class="splide__slide-info">
+                                            <a href="#">
+                                                <h4 class="splide__item-title">Шоколадне тістечко брауні</h4>
+                                            </a>
+                                            <span class="splide__item-price">300 грн/ 3шт</span>
+                                            <button class="splide__item-cart">
+                                                <svg width="30" height="30">
+                                                    <use href="images/sprite.svg#cart"></use>
+                                                </svg>
+                                            </button>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="splide__slide">
+                                    <div class="splide__slide-item" href="#">
+                                        <div class="splide__item-img">
+                                            <img src="images/slider/3.jpg" alt="slider image">
+                                            <a class="btn splide__slide-link">Детальніше</a>
+                                        </div>
+                                        <div class="splide__slide-info">
+                                            <a href="#">
+                                                <h4 class="splide__item-title">Тістечка Шу</h4>
+                                            </a>
+                                            <span class="splide__item-price">1400 грн/ 6 шт</span>
+                                            <button class="splide__item-cart">
+                                                <svg width="30" height="30">
+                                                    <use href="images/sprite.svg#cart"></use>
+                                                </svg>
+                                            </button>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="splide__slide">
+                                    <div class="splide__slide-item" href="#">
+                                        <div class="splide__item-img">
+                                            <img src="images/slider/4.jpg" alt="slider image">
+                                            <a class="btn splide__slide-link">Детальніше</a>
+                                        </div>
+                                        <div class="splide__slide-info">
+                                            <a href="#">
+                                                <h4 class="splide__item-title">Солона Карамель</h4>
+                                            </a>
+                                            <span class="splide__item-price">270грн/ 450г</span>
+                                            <button class="splide__item-cart">
+                                                <svg width="30" height="30">
+                                                    <use href="images/sprite.svg#cart"></use>
+                                                </svg>
+                                            </button>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="splide__slide">
+                                    <div class="splide__slide-item" href="#">
+                                        <div class="splide__item-img">
+                                            <img src="images/slider/1.jpg" alt="slider image">
+                                            <a class="btn splide__slide-link">Детальніше</a>
+                                        </div>
+                                        <div class="splide__slide-info">
+                                            <a href="#">
+                                                <h4 class="splide__item-title">Мусовий торт “Манго-маракуйя”</h4>
+                                            </a>
+                                            <span class="splide__item-price">1200 грн/ 3 кг</span>
+                                            <button class="splide__item-cart" type="button">
+                                                <svg width="30" height="30">
+                                                    <use href="images/sprite.svg#cart"></use>
+                                                </svg>
+                                            </button>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="splide__slide">
+                                    <div class="splide__slide-item" href="#">
+                                        <div class="splide__item-img">
+                                            <img src="images/slider/2.jpg" alt="slider image">
+                                            <a class="btn splide__slide-link">Детальніше</a>
+                                        </div>
+                                        <div class="splide__slide-info">
+                                            <a href="#">
+                                                <h4 class="splide__item-title">Шоколадне тістечко брауні</h4>
+                                            </a>
+                                            <span class="splide__item-price">300 грн/ 3шт</span>
+                                            <button class="splide__item-cart">
+                                                <svg width="30" height="30">
+                                                    <use href="images/sprite.svg#cart"></use>
+                                                </svg>
+                                            </button>
+                                        </div>
+                                    </a>
+                                </li>
+            
+                            </ul>
+                        </div>
+            
+                        <div class="splide__arrows">
+                            <button class="splide__arrow splide__arrow--prev" type="button" aria-label="Previous slide"
+                                aria-controls="splide01-track">
+                            </button>
+                            <svg class="slider__arrow-prev" width="42" height="26">
+                                <use href="images/sprite.svg#arrow-left"></use>
+                            </svg>
+                            <button class="splide__arrow splide__arrow--next" type="button" aria-label="Next slide"
+                                aria-controls="splide01-track">
+                            </button>
+                            <svg class="slider__arrow-next" width="42" height="26">
+                                <use href="images/sprite.svg#arrow-right"></use>
+                            </svg>
+                        </div>
+                        
+                    </div>
+                    <a class="btn view-all" href="#">Переглянути весь асортимент</a>
+                </div>
+            </section>
+            <section class="advantages" id="advantages">
+                <div class="container">
+                    <h2 class="advantages__title title">Чому саме Grann?</h2>
+                    <div class="advantages__content">
+                        <div class="advantages__item">
+                            <h4 class="advantages__item-title">ВСІ ІНГРЕДІЄНТИ СВІЖІ ТА ЯКІСНІ!</h4>
+                            <p class="advantages__item-text">Я замовляю продукти тільки у тих постачальників, які мають
+                                сертифікати
+                                якості.</p>
+                            <svg class="advantages__item-svg" width="162" height="50">
+                                <use xlink:href="images/sprite.svg#advantages-1" />
+                            </svg>
+                        </div>
+                        <div class="advantages__item">
+                            <img class="advantages__img wow animate__rotateIn" src="images/advantages/advantages-item.png" alt="cake">
+                        </div>
+                        <div class="advantages__item">
+                            <h4 class="advantages__item-title">МОЖЛИВІСТЬ ЗАМОВИТИ ДЕСЕРТ ЗГІДНО ВАШИХ ПОБАЖАННЬ</h4>
+                            <p class="advantages__item-text">Якщо з якихось причин ви не вживаєте окремі продукти десерту, є
+                                можливість зробити замовлення згідно ваших побажаннь.</p>
+                            <svg class="advantages__item-svg" width="165" height="97">
+                                <use xlink:href="images/sprite.svg#advantages-3" />
+                            </svg>
+                        </div>
+                        <div class="advantages__item advantages__item">
+                            <h4 class="advantages__item-title">ЗРУЧНА ВАГА ТОРТУ</h4>
+                            <p class="advantages__item-text">Не обов'язково чекати на свято, щоб замовити смачненьке. Наша
+                                кондитерська робить мініторти і десерти. </p>
+                            <p class="advantages__item-text"> Мінімальна вага
+                                замовлення:Наполеон і медовик - від 0,5 кг.Мусові торти - від 0,8 кг.</p>
+                            <svg class="advantages__item-svg" width="24" height="85">
+                                <use xlink:href="images/sprite.svg#advantages-2" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="advantages__big-img">
+                    <svg class="advantages__decor" width="40vw" height="50vh">
+                        <use xlink:href="images/sprite.svg#advantages-decor" />
+                    </svg>
+                </div>
+            </section>
+            <section class="delivery" id="delivery">
+                <div class="container">
+                    <h2 class="delivery__title title">Доставка і оплата</h2>
+                    <div class="delivery__items">
+                        <div class="delivery__item">
+                            <svg class="delivery__item-icon" width="86" height="110">
+                                <use xlink:href="images/sprite.svg#package" />
+                            </svg>
+                            <div class="delivery__item-title">Самовивіз</div>
+                            <div class="delivery__item-text">Самовивіз з Печерського р-ну, м. Київ</div>
+                        </div>
+                        <div class="delivery__item">
+                            <svg class="delivery__item-icon" width="102" height="110">
+                                <use xlink:href="images/sprite.svg#scooter" />
+                            </svg>
+                            <div class="delivery__item-title">Доставка</div>
+                            <div class="delivery__item-text">Доставка на таксі (за тарифами служби таксі)</div>
+                        </div>
+                        <div class="delivery__item">
+                            <svg class="delivery__item-icon" width="80" height="110">
+                                <use xlink:href="images/sprite.svg#cash" />
+                            </svg>
+                            <div class="delivery__item-title">Передплата</div>
+                            <div class="delivery__item-text">Передплата на картку в розмірі 50% від суми замовлення</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="about" id="about">
+                <div class="container">
+                    <h2 class="about__mobile-title title">Про мене</h2>
+                    <div class="about__inner">
+                        <div class="about__img">
+                            <img src="images/about.jpg" alt="my picture">
+                        </div>
+                        <div class="about__content">
+                            <svg class="about__icon" width="250" height="150">
+                                <use xlink:href="images/sprite.svg#about" />
+                            </svg>
+                            <p class="about__subject">Анна Кострома</p>
+                            <p class="about__subtitle">Засновниця кондитерської Grann Pastry</p>
+                            <p class="about__slogan">Від хобі до власної справи</p>
+                            <div class="about__text">
+                                <p>
+                                    Я закінчила DGF International Culinary School в Києві, а згодом навчалася в одній з
+                                    найвідоміших
+                                    шкіл
+                                    готельного сервісу
+                                    і кулінарії в світі «Le Cordon Bleu» (Франція).Свою справу почала після того, як здобула
+                                    досвід
+                                    і
+                                    працювала в одному з
+                                    найбільших кондитерських цехів Грузії (1500 кв.м.).</p>
+                                <p>
+                                    Наразі започаткувала особистий бренд і будую власний кондитерський цех.Моя робота мене
+                                    надихає.
+                                    Завдяки
+                                    моїм солодощам,
+                                    я можу дарувати щасливі моменти для вас!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="order" id="order">
+                <div class="container">
+                    <div class="order__inner">
+                        <div class="order__content">
+                            <h3 class="order__title">
+                                Давайте зробимо щось унікальне разом!
+                            </h3>
+                            <p class="order__text">
+                                Ви можете замовити свій власний рецепт десерту, який вам буде до вподоби. Заповніть заявку та я
+                                зв’яжусь з вами, аби
+                                обговорити деталі замовлення.
+                            </p>
+                        </div>
+                        <form class="order__form">
+                            <input class="order__input" type="text" placeholder="Ім'я">
+                            <input class="order__input" type="tel" placeholder="Номер телефону">
+                            <textarea class="order__textarea order__input" placeholder="Опишіть ваші побажання:" cols="30"
+                                rows="10"></textarea>
+                            <button class="order__sumbit btn" type="submit">Надіслати</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+            <section class="questions">
+                <div class="container">
+                    <h2 class="questions__title title">Популярні запитання</h2>
+                    <ul class="questions__items">
+                        <li class="questions__item">
+                            <h3 class="questions__item-title">СКІЛЬКИ ЧАСУ ПОТРІБНО ДЛЯ ВИГОТОВЛЕННЯ ЗАМОВЛЕННЯ?</h3>
+                            <p class="questions__item-text">Замовлення необхідно зробити як мінімум за 3-4 дні до вашого
+                                свята.</p>
+                        </li>
+                        <li class="questions__item">
+                            <h3 class="questions__item-title">ЧИ Є У ВАС ДОСТАВКА?</h3>
+                            <p class="questions__item-text">Доставка в будь-яку точку Києва курьєром.</p>
+                        </li>
+                        <li class="questions__item">
+                            <h3 class="questions__item-title">ЧИ ГОТУЄТЕ ВИ ТОРТИ З МАСТИКИ?</h3>
+                            <p class="questions__item-text">Мастика, грильяж та ще багато різних прикрас для вашого торту.
+                            </p>
+                        </li>
+                        <li class="questions__item">
+                            <h3 class="questions__item-title">ЧИ МОЖНА ЇСТИ ВАШІ ТОРТИ ДІТЯМ ТА ВАГІТНИМ?</h3>
+                            <p class="questions__item-text">Наші торти можна їсти усім♡</p>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section class="instagram">
+                <div class="container">
+                    <h2 class="instagram__title title">Instagram</h2>
+                    <div class="splide instagram__splide">
+                        <div class="splide__track instagram__track">
+                            <ul class="splide__list instagram__items">
+                                <li class="splide__slide instagram__item wow animate__fadeIn">
+                                    <img class="instagram__img" src="images/instagram/ig-1.jpg" alt="instagram image">
+                                </li>
+                                <li class="splide__slide instagram__item wow animate__fadeIn">
+                                    <img class="instagram__img" src="images/instagram/ig-2.jpg" alt="instagram image">
+                                </li>
+                                <li class="splide__slide instagram__item wow animate__fadeIn">
+                                    <img class="instagram__img" src="images/instagram/ig-3.jpg" alt="instagram image">
+                                </li>
+                                <li class="splide__slide instagram__item wow animate__fadeIn">
+                                    <img class="instagram__img" src="images/instagram/ig-4.jpg" alt="instagram image">
+                                </li>
+                                <li class="splide__slide instagram__item wow animate__fadeIn">
+                                    <img class="instagram__img" src="images/instagram/ig-5.jpg" alt="instagram image">
+                                </li>
+                                <li class="splide__slide instagram__item wow animate__fadeIn">
+                                    <img class="instagram__img" src="images/instagram/ig-6.jpg" alt="instagram image">
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="splide__arrows">
+                            <button class="splide__arrow splide__arrow--prev" type="button" aria-label="Previous slide"
+                                aria-controls="splide01-track">
+                            </button>
+                            <svg class="slider__arrow-prev" width="42" height="26">
+                                <use xlink:href="images/sprite.svg#arrow-left"></use>
+                            </svg>
+                            <button class="splide__arrow splide__arrow--next" type="button" aria-label="Next slide"
+                                aria-controls="splide01-track">
+                            </button>
+                            <svg class="slider__arrow-next" width="42" height="26">
+                                <use xlink:href="images/sprite.svg#arrow-right"></use>
+                            </svg>
+                        </div>
+                    </div>
+                    <button class="instagram__btn btn">Завітати на сторінку</button>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer" id="contacts">
+            <div class="container">
+                <div class="footer__content">
+                    <div class="footer__row">
+                        <div class="footer__col">
+                            <ul class="footer__list">
+                                <li class="footer__item email">
+                                    <a href="mailto:kostromaganna@gmail.com" class="footer__link">Email:
+                                        kostromaganna@gmail.com</a>
+                                </li>
+                                <li class="footer__item tel">
+                                    <a href="#" class="footer__link">Телефон: +38(099) 987 62 40</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer__col">
+                            <ul class="footer__list">
+                                <li class="footer__item footer__item-social">
+                                    <a class="footer__item-link" href="#">
+                                        <svg width="34" height="34">
+                                            <use xlink:href="images/sprite.svg#instagram-light"></use>
+                                        </svg>
+                                    </a>
+                                    <a class="footer__item-link" href="#">
+                                        <svg width="34" height="34">
+                                            <use xlink:href="images/sprite.svg#telegram-light"></use>
+                                        </svg>
+                                    </a>
+                                    <a class="footer__item-link" href="#">
+                                        <svg width="34" height="34">
+                                            <use xlink:href="images/sprite.svg#whatsapp-light"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="footer__item">
+                                    <a href="#" class="footer__link">Політика конфіденційності</a>
+                                </li>
+                                <li class="footer__item">
+                                    <a href="#" class="footer__link">Договір оферти</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <a class="footer__logo go-top" href="#body">
+                        <img src="images/logo.png" alt="Grann logo">
+                    </a>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+
+    <script src="js/main.min.js"></script>
+
+</body>
+
+</html>
